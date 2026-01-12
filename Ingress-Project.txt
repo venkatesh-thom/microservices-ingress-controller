@@ -4,7 +4,7 @@
 
  														   *by*
 
-=================== 										 			**Kastro Kiran V**
+=================== 										 			
 Step 1: Basic Setup
 ===================
 1.1. Push the code from Local to Remote
