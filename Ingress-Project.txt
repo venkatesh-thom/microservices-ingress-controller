@@ -131,7 +131,7 @@ Step 4: Creation of EKS Cluster
 4.1. Creation of IAM user (To create EKS Cluster, its not recommended to create using Root Account)
 
 4.2. Attach policies to the user
-AmazonEC2FullAccess, AmazonEKS\_CNI\_Policy, AmazonEKSClusterPolicy, AmazonEKSWorkerNodePolicy, AWSCloudFormationFullAccess, IAMFullAccess
+AmazonEC2FullAccess, AmazonEKS\_CNI\_Policy, AmazonEKSClusterPolicy, AmazonEKSWorkerNodePolicy, AWSCloudFormationFullAccess, IAMFullAccess,AmazonVPCPolicy
 
 Attach the below inline policy also for the same user
 
