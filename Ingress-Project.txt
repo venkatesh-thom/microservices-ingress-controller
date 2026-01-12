@@ -485,7 +485,7 @@ In production, it is always suggested to create a custom namespace ----> kubectl
 EXPOSE ARGOCD SERVER:
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}' ----> kubectl get all -n argocd ----> Now you can see the service called 'argo-cd server' changed to Load Balancer instead of ClusterIP ----> Copy the load balancer url ----> This is one way of getting the loadbalancer url. Another way is to install "jq" (J Query) ----> 
 
-yum install jq -y
+apt install jq -y
 
 kubectl get svc argocd-server -n argocd -o json | jq --raw-output '.status.loadBalancer.ingress[0].hostname'
 The above command will provide load balancer URL to access ARGO CD

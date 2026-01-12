@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/KastroVKiran/microservices-ingress-kastro.git
+    repoURL: https://github.com/venkatesh-thom/microservices-ingress-controller.git
     targetRevision: HEAD
     path: k8s
   destination:
@@ -17,4 +17,4 @@ spec:
       prune: true
       selfHeal: true
     syncOptions:
-    - CreateNamespace=true
+      - CreateNamespace=true
